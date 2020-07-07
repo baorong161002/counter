@@ -10,35 +10,36 @@
     <body>
         <div id="root_container" style="margin-left: 200px;">
             <div id="counter_container"  >
-                
-                <input type="text" id="before"  style="width: 420px;height:40px;margin-bottom: 20px;font-size: 20px;"/>
+                <p id="title">简易计算器</p>
+                <input type="text" id="before"  />
                 <br />
-                <label>=</label>
-                <input type="text" id="after"  style="width: 400px;height:40px;margin-bottom: 20px;font-size: 20px;"/>
-                
+                <input type="text" id="after" placeholder="0" />
                 <br />
-                <input type="button" id="7" onclick="count(this.id)" value="7" class="buttons">
-                <input type="button" id="8" onclick="count(this.id)" value="8" class="buttons">
-                <input type="button" id="9" onclick="count(this.id)" value="9" class="buttons">
-                <input type="button" id="c" onclick="clean()" value="C" class="buttons">
-
-                <br /><br />
-                <input type="button" id="4" onclick="count(this.id)" value="4" class="buttons">
-                <input type="button" id="5" onclick="count(this.id)" value="5" class="buttons">
-                <input type="button" id="6" onclick="count(this.id)" value="6" class="buttons">
-                <input type="button" id="+" onclick="count(this.id)" value="+" class="buttons">
-
-                <br /><br />
-                <input type="button" id="1" onclick="count(this.id)" value="1" class="buttons">
-                <input type="button" id="2" onclick="count(this.id)" value="2" class="buttons">
-                <input type="button" id="3" onclick="count(this.id)" value="3" class="buttons">
-                <input type="button" id="-" onclick="count(this.id)" value="-" class="buttons">
-
-                <br /><br />
-                <input type="button" id="0" onclick="count(this.id)" value="0" class="buttons">
-                <input type="button" id="*" onclick="count(this.id)" value="*" class="buttons">
-                <input type="button" id="/" onclick="count(this.id)" value="/" class="buttons">
-                <input type="button" id="=" onclick="eva()" value="=" class="buttons">
+                <div id="counter_number">
+                    <input type="button" id="7" onclick="count(this.id)" value="7" class="buttons">
+                    <input type="button" id="8" onclick="count(this.id)" value="8" class="buttons">
+                    <input type="button" id="9" onclick="count(this.id)" value="9" class="buttons">
+                    <input type="button" id="c" onclick="clean()" value="C" class="clean">
+    
+                    <br /><br />
+                    <input type="button" id="4" onclick="count(this.id)" value="4" class="buttons">
+                    <input type="button" id="5" onclick="count(this.id)" value="5" class="buttons">
+                    <input type="button" id="6" onclick="count(this.id)" value="6" class="buttons">
+                    <input type="button" id="+" onclick="count(this.id)" value="+" class="but">
+    
+                    <br /><br />
+                    <input type="button" id="1" onclick="count(this.id)" value="1" class="buttons">
+                    <input type="button" id="2" onclick="count(this.id)" value="2" class="buttons">
+                    <input type="button" id="3" onclick="count(this.id)" value="3" class="buttons">
+                    <input type="button" id="-" onclick="count(this.id)" value="-" class="but">
+    
+                    <br /><br />
+                    <input type="button" id="0" onclick="count(this.id)" value="0" class="buttons">
+                    <input type="button" id="*" onclick="count(this.id)" value="*" class="but">
+                    <input type="button" id="/" onclick="count(this.id)" value="/" class="but">
+                    <input type="button" id="=" onclick="count(this.id)" value="=" class="but">
+                </div>
+  
 
             </div>
 
